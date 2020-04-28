@@ -1,0 +1,13 @@
+1. Pertama jalankan
+
+npm init
+
+2. lanjutkan instalasi package :
+
+npm install @babel/core @babel/preset-env babel-loader css-loader html-loader html-webpack-plugin style-loader webpack webpack-cli webpack-dev-server webpack-merge --save-dev
+
+3. Instal regenerator runtime untuk membaca async-await pada browser lama
+
+npm install regenerator-runtime
+
+import 'regenerator-runtime' -> pada entry point

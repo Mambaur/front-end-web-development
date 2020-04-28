@@ -1,0 +1,45 @@
+.headnav {
+	text-align: right;
+	margin: 0;
+	padding : 2px;
+	padding-right: 20px;
+	font-size: 12px;
+	background-color: lightgrey;
+	color: white;
+}
+
+.search {
+	width: 400px;
+}
+
+
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+
+.thumb-post {
+  object-fit: none; /* Do not scale the image */
+  object-position: center; /* Center the image within the element */
+  width: 100%;
+  min-height: 150px;
+}
+
+
+@media (max-width: 576px) {
+	.headnav{
+		text-align: center;
+		padding-right: 2px;
+	}
+	.search {
+		width: 100%;
+	}
+
+	.button-header {
+		text-align: center;
+	}
+}
